@@ -1,0 +1,22 @@
+{
+  "name": "as2-validate",
+  "bin": "./index.js",
+  "version": "1.0.0",
+  "description": "Validate ActivityStreams 2.0 JSON from stdin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Goering <bengo.is>",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "activitystreams.validator": "git://github.com/jasnell/activitystreams.validator.git",
+    "jsonstream": "^1.0.3",
+    "stream-transform": "git://github.com/gobengo/stream-transform.git",
+    "through3": "^1.1.5"
+  }
+}
