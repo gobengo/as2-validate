@@ -16,7 +16,6 @@
   "dependencies": {
     "JSONStream": "^1.0.7",
     "activitystreams.validator": "git://github.com/jasnell/activitystreams.validator.git",
-    "stream-transform": "git://github.com/gobengo/stream-transform.git",
-    "through3": "^1.1.5"
+    "stream-transform": "git://github.com/gobengo/stream-transform.git"
   }
 }
