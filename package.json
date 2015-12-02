@@ -8,14 +8,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Benjamin Goering <bengo.is>",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/npm/npm.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gobengo/as2-validate.git"
   },
   "license": "ISC",
   "dependencies": {
+    "JSONStream": "^1.0.7",
     "activitystreams.validator": "git://github.com/jasnell/activitystreams.validator.git",
-    "jsonstream": "^1.0.3",
     "stream-transform": "git://github.com/gobengo/stream-transform.git",
     "through3": "^1.1.5"
   }

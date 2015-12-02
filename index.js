@@ -1,4 +1,4 @@
-var jsonstream = require('jsonstream')
+var jsonstream = require('JSONStream')
 var through = require('through3')
 var validator = require('activitystreams.validator')
 var map = require('stream-transform').map
